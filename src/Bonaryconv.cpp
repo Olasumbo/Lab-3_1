@@ -2,7 +2,7 @@
 using namespace std;
 
 unsigned short Arithmetic (unsigned short x , unsigned short store[]);
-//unsigned short Bitwise (unsigned short x , unsigned short store[]);
+unsigned short Bitwise (unsigned short x , unsigned short store[]);
 
 int main()
 {
@@ -25,7 +25,7 @@ int main()
 	}
 	else if( choice == 2)
 	{
-		//Bitwise (num, safe);
+		Bitwise (num, safe);
 	}
 	else
 	{
@@ -56,7 +56,7 @@ unsigned short Arithmetic (unsigned short x , unsigned short store[])
 	return 0;
 }
 
-/*unsigned short Bitwise (unsigned short x , unsigned short store[])
+unsigned short Bitwise (unsigned short x , unsigned short store[])
 {
 			int i;
 			for(i = 0;i < 16; i++)
@@ -71,4 +71,4 @@ unsigned short Arithmetic (unsigned short x , unsigned short store[])
 
 	  return 0;
 }
-*/
+
